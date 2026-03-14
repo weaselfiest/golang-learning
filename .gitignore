@@ -1,0 +1,62 @@
+# Бинарники
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+/build/
+
+# Тестовые артефакты
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Vendor (если не коммитишь)
+# vendor/
+
+# Профилировщик
+*.prof
+*.pprof
+cpu.out
+mem.out
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+tmp/
+temp/
+
+# Air (hot reload)
+.air.toml
+
+# GoReleaser
+dist/
+
+# Delve (отладчик)
+__debug_bin
+__debug_bin*
